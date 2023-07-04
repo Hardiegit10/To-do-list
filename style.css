@@ -1,0 +1,47 @@
+body{
+   background-color: aliceblue;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 10px;
+}
+  
+li span {
+    margin-right: 10px;
+    cursor: pointer;
+}
+  
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+  
